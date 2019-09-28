@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b387c391-6d93-49e7-857c-442fd4d01273" name="Default Changelist" comment="" />
+    <list default="true" id="b387c391-6d93-49e7-857c-442fd4d01273" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +28,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1QXsCnHBlPDlp3cDgnBHLNRRHHW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -44,9 +50,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemoKeys_3">
+  <component name="RunManager" selected="Application.ConsumerDemoWithThread_3">
     <configuration name="ConsumerDemoGroups_2" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mm.kafka.tutorial1.consumer.ConsumerDemoGroups_2" />
+      <module name="kafka_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mm.kafka.tutorial1.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoWithThread_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mm.kafka.tutorial1.consumer.ConsumerDemoWithThread_3" />
       <module name="kafka_course" />
       <extension name="coverage">
         <pattern>
@@ -97,33 +116,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemo_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mm.kafka.tutorial1.producer.ProducerDemo_1" />
-      <module name="kafka_course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mm.kafka.tutorial1.producer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ConsumerDemo_1" />
       <item itemvalue="Application.ConsumerDemoGroups_2" />
-      <item itemvalue="Application.ProducerDemo_1" />
       <item itemvalue="Application.ProducerDemoKeys_3" />
       <item itemvalue="Application.ProducerDemoWithCallback_2" />
+      <item itemvalue="Application.ConsumerDemoWithThread_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemoWithThread_3" />
         <item itemvalue="Application.ProducerDemoKeys_3" />
         <item itemvalue="Application.ConsumerDemoGroups_2" />
         <item itemvalue="Application.ConsumerDemo_1" />
         <item itemvalue="Application.ProducerDemoWithCallback_2" />
-        <item itemvalue="Application.ProducerDemo_1" />
       </list>
     </recent_temporary>
   </component>
@@ -139,5 +145,16 @@
       <updated>1567928149419</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
